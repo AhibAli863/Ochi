@@ -1,0 +1,19 @@
+/* button:hover .btn-div{
+    padding: 15px;
+} */
+
+.arrow{
+    color: black;
+    /* padding: 10px; */
+    width: 20px;
+    height: 20px;
+    font-size: 40px;
+    transform: rotate(40deg);
+    font-weight: 100;
+    display: none;
+    transition: all ease-in-out 100ms;
+}
+
+.btn:hover .arrow{
+    display: block;
+}

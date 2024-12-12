@@ -1,0 +1,13 @@
+@media(max-width:900px){
+    .ochi-para{
+        font-size: 1.5rem !important;
+    }
+
+    .expect-para{
+        width: 100% !important;
+    }
+    .expect-icons{
+        width: 100% !important;
+        padding-left: 0 !important;
+    }
+}

@@ -1,0 +1,22 @@
+.icon-box:hover .icon{
+    background-color: #111;
+    color: white;
+    transition: all ease-in-out ;
+    transition-duration: 700ms;
+}
+
+.mid-image{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwgIWLDnJr28v_Ibhrl_511JxXcw4RhpQDjA&s');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+@media(max-width:639px){
+    .mid-image{
+        width: 150px !important;
+        height: 100px !important;
+        margin: 30px 0 !important;
+    }
+}
